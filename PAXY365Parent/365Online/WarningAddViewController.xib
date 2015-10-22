@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WarningAddViewController">
+            <connections>
+                <outlet property="btnPost" destination="vAV-eH-cJS" id="PCp-bA-AW7"/>
+                <outlet property="imageUpload1" destination="tkM-1p-OOC" id="MhR-RB-01z"/>
+                <outlet property="imageUpload2" destination="Kog-Jy-wfO" id="Qpm-RM-40x"/>
+                <outlet property="imageUpload3" destination="JuI-ed-FEd" id="PRE-A4-qUn"/>
+                <outlet property="imageUpload4" destination="h8F-fa-T5b" id="z9A-fq-VvP"/>
+                <outlet property="imageUpload5" destination="A2p-6e-iNF" id="x3W-Go-wEH"/>
+                <outlet property="imageView1" destination="vJY-xU-1df" id="pf6-wr-7Sn"/>
+                <outlet property="imageView2" destination="Zq6-Av-HPK" id="Qn7-eR-0Gc"/>
+                <outlet property="imageView3" destination="OLx-sM-yEb" id="J8O-Lq-7Ze"/>
+                <outlet property="imageView4" destination="Z7a-Fd-umg" id="Ig2-LY-wlV"/>
+                <outlet property="imageView5" destination="6Fe-BW-FkX" id="8u3-2S-xLY"/>
+                <outlet property="lblLimitWords" destination="T04-eO-eSj" id="haF-tF-sw6"/>
+                <outlet property="lblPlaceholder" destination="b0t-py-ZQd" id="o1Q-Ij-n0G"/>
+                <outlet property="photosView" destination="Dol-HV-jFh" id="LsQ-iV-jQS"/>
+                <outlet property="scrollView" destination="TCQ-ZH-gSr" id="jZi-8H-cbb"/>
+                <outlet property="txtContent" destination="UTj-zs-ZHn" id="6MB-bO-b7f"/>
+                <outlet property="txtTitle" destination="cOv-LO-qzY" id="aFR-Hs-HSG"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TCQ-ZH-gSr">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sdg-tU-1TB">
+                            <rect key="frame" x="10" y="25" width="300" height="50"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="Button" image="set_bg_alone.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入标题" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cOv-LO-qzY">
+                            <rect key="frame" x="16" y="35" width="280" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                            <connections>
+                                <action selector="txtTitleCodeEditing:" destination="-1" eventType="editingDidEndOnExit" id="Iu1-ZS-4b7"/>
+                            </connections>
+                        </textField>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UTj-zs-ZHn">
+                            <rect key="frame" x="10" y="83" width="300" height="100"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                        </textView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="请输入描述" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b0t-py-ZQd">
+                            <rect key="frame" x="16" y="86" width="203" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAV-eH-cJS">
+                            <rect key="frame" x="8" y="287" width="300" height="40"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="确定" backgroundImage="btn_long_blue.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnPostPressed:" destination="-1" eventType="touchUpInside" id="6UZ-bL-xJG"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="你还可以输入100字" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T04-eO-eSj">
+                            <rect key="frame" x="10" y="189" width="286" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dol-HV-jFh">
+                            <rect key="frame" x="8" y="218" width="302" height="52"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tkM-1p-OOC">
+                                    <rect key="frame" x="2" y="0.0" width="50" height="50"/>
+                                    <state key="normal">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnUploadPressed:" destination="-1" eventType="touchUpInside" id="LOm-7V-3LB"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kog-Jy-wfO">
+                                    <rect key="frame" x="65" y="0.0" width="50" height="50"/>
+                                    <state key="normal">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnUploadPressed:" destination="-1" eventType="touchUpInside" id="Ny4-qJ-exs"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JuI-ed-FEd">
+                                    <rect key="frame" x="128" y="0.0" width="50" height="50"/>
+                                    <state key="normal">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnUploadPressed:" destination="-1" eventType="touchUpInside" id="61x-rT-wSP"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8F-fa-T5b">
+                                    <rect key="frame" x="190" y="0.0" width="50" height="50"/>
+                                    <state key="normal">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnUploadPressed:" destination="-1" eventType="touchUpInside" id="WSW-6c-bRe"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A2p-6e-iNF">
+                                    <rect key="frame" x="252" y="0.0" width="50" height="50"/>
+                                    <state key="normal">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnUploadPressed:" destination="-1" eventType="touchUpInside" id="YAD-It-0eK"/>
+                                    </connections>
+                                </button>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vJY-xU-1df">
+                                    <rect key="frame" x="2" y="0.0" width="50" height="50"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zq6-Av-HPK">
+                                    <rect key="frame" x="65" y="0.0" width="50" height="50"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OLx-sM-yEb">
+                                    <rect key="frame" x="128" y="0.0" width="50" height="50"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z7a-Fd-umg">
+                                    <rect key="frame" x="190" y="0.0" width="50" height="50"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Fe-BW-FkX">
+                                    <rect key="frame" x="252" y="0.0" width="50" height="50"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="237" y="287"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_long_blue.png" width="300" height="40"/>
+        <image name="set_bg_alone.png" width="300" height="50"/>
+    </resources>
+</document>

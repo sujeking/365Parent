@@ -1,0 +1,39 @@
+//
+// Prefix header for all source files of the 'PAXY365Parent' target in the 'PAXY365Parent' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "ChatDemoUIDefine.h"
+#import "EMAlertView.h"
+#import "TTGlobalUICommon.h"
+#import "UIViewController+HUD.h"
+#import "UIViewController+DismissKeyboard.h"
+#import "NSString+Valid.h"
+
+#import "EaseMob.h"
+
+#endif
+
+
+
+#ifdef DEBUG
+#define CLog(format, ...) NSLog(format, ## __VA_ARGS__)
+#else
+#define CLog(format, ...)
+#endif
+
+

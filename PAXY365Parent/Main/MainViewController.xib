@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="btnLogo" destination="u0w-c0-gUn" id="OJD-od-pkv"/>
+                <outlet property="btnMenu1" destination="1dH-LN-OgZ" id="C04-u9-OVQ"/>
+                <outlet property="btnMenu2" destination="IiW-Tb-uiz" id="b2d-wt-6eS"/>
+                <outlet property="btnMenu3" destination="NcK-5B-irw" id="ORg-9f-p6u"/>
+                <outlet property="btnMenu4" destination="DDw-el-WrN" id="711-bj-Ab4"/>
+                <outlet property="btnMenu5" destination="gew-Nz-emi" id="hxb-G7-KUx"/>
+                <outlet property="btnMessage1" destination="8Yv-lV-qW6" id="3QM-DE-FJb"/>
+                <outlet property="btnMessage2" destination="ZlQ-Mv-UcR" id="E5H-Og-DLf"/>
+                <outlet property="btnMessage3" destination="MK0-Qa-9fN" id="GHl-z9-7Cl"/>
+                <outlet property="btnMessage4" destination="J3q-IL-sfy" id="9Gc-JT-Odu"/>
+                <outlet property="btnMessage5" destination="bPY-iV-SWl" id="7P6-vB-fbH"/>
+                <outlet property="scrollView" destination="VzI-NU-TUo" id="Q1i-TS-CF4"/>
+                <outlet property="userHeadImage" destination="eVa-Yc-3sd" id="odk-wb-5sZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VzI-NU-TUo">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nT7-mU-Wrv">
+                            <rect key="frame" x="0.0" y="152" width="280" height="436"/>
+                            <state key="normal" backgroundImage="main_center.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dH-LN-OgZ">
+                            <rect key="frame" x="143" y="169" width="70" height="70"/>
+                            <state key="normal" backgroundImage="main_menu1.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnMenus1Pressed:" destination="-1" eventType="touchUpInside" id="KTL-nl-fSO"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Yv-lV-qW6">
+                            <rect key="frame" x="202" y="173" width="20" height="20"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="0" backgroundImage="icon_new_message.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NcK-5B-irw">
+                            <rect key="frame" x="219" y="313" width="70" height="70"/>
+                            <state key="normal" backgroundImage="main_menu3.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnMenus3Pressed:" destination="-1" eventType="touchUpInside" id="9ER-V8-VBD"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DDw-el-WrN">
+                            <rect key="frame" x="204" y="399" width="70" height="70"/>
+                            <state key="normal" backgroundImage="main_menu4.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnMenus4Pressed:" destination="-1" eventType="touchUpInside" id="dVm-62-iM1"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J3q-IL-sfy">
+                            <rect key="frame" x="264" y="398" width="20" height="20"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="0" backgroundImage="icon_new_message.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IiW-Tb-uiz">
+                            <rect key="frame" x="198" y="233" width="70" height="70"/>
+                            <state key="normal" backgroundImage="main_menu2.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnMenus2Pressed:" destination="-1" eventType="touchUpInside" id="6Tb-Cx-Zw2"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlQ-Mv-UcR">
+                            <rect key="frame" x="255" y="230" width="20" height="20"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="0" backgroundImage="icon_new_message.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MK0-Qa-9fN">
+                            <rect key="frame" x="278" y="315" width="15" height="15"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" backgroundImage="icon_new_message.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gew-Nz-emi">
+                            <rect key="frame" x="160" y="477" width="70" height="70"/>
+                            <state key="normal" backgroundImage="main_menu5.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnMenus5Pressed:" destination="-1" eventType="touchUpInside" id="2kC-jw-NH4"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPY-iV-SWl">
+                            <rect key="frame" x="220" y="477" width="20" height="20"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="0" backgroundImage="icon_new_message.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_home_user.png" translatesAutoresizingMaskIntoConstraints="NO" id="eVa-Yc-3sd">
+                            <rect key="frame" x="275" y="162" width="30" height="30"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0w-c0-gUn">
+                            <rect key="frame" x="50" y="355" width="70" height="70"/>
+                            <state key="normal" backgroundImage="main_logo.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnLogoPressed:" destination="-1" eventType="touchUpInside" id="IgI-QL-yg5"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="335" y="308"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_home_user.png" width="50" height="50"/>
+        <image name="icon_new_message.png" width="22" height="22"/>
+        <image name="main_center.png" width="326" height="508"/>
+        <image name="main_logo.png" width="80" height="80"/>
+        <image name="main_menu1.png" width="80" height="80"/>
+        <image name="main_menu2.png" width="80" height="80"/>
+        <image name="main_menu3.png" width="80" height="80"/>
+        <image name="main_menu4.png" width="80" height="80"/>
+        <image name="main_menu5.png" width="80" height="80"/>
+    </resources>
+</document>

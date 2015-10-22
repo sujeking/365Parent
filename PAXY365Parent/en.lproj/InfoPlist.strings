@@ -1,0 +1,303 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleDisplayName = "365平安校园";
+CFBundleName = "365平安校园";
+
+//通用
+APP_NAME = "365平安校园";
+CITY_NAME = "365平安校园";
+LANGUAGE_TITLE = "Select Language";
+OK = "OK";
+ALERT_WARNING = "Reminder";
+ALERT_OK = "OK";
+ALERT_FAIL = "Failure";
+ALERT_SUCCESS = "Successful";
+NETWORK_FAIL = "Network unavailable";
+REFRESH = "Refresh";
+LOADING = "加载中..";
+
+//主菜单
+MENUS_SEARCH = "Search";
+MENUS_NEARBY = "Nearby";
+MENUS_MY = "Favorite";
+MENUS_ORDER = "Orders";
+MENUS_ACCOUNT = "Account";
+MENUS_SETTING = "Setting";
+
+//餐厅搜索
+SEARCH_TITLE = "Search";
+SEARCH_INPUT = "Input Restaurant Name";
+SEARCH_HISTORY = "History";
+SEARCH_RESULT = "Search Result";
+SEARCH_AREA = "Area";
+SEARCH_DISTRICT = "District";
+SEARCH_KEYWORD = "Keyword";
+SEARCH_KEYWORD_TIP = "Please input keyword";
+SEARCH_KEYWORD_CHECK = "Please input correct keyword";
+SEARCH_SELECT = "Select";
+SEARCH_BTN = "Search";
+SEARCH_CHECK = "Please select district first";
+
+//附近餐厅
+NEARBY_TITLE = "Nearby Restaurant";
+NEARBY_MAP = "By Map";
+
+//我的餐厅
+MYSHOP_TITLE = "My Restaurant";
+SHOP_TITLE = "Shop info";
+SHOP_STATUS = "Closed";
+SHOP_BUSINESSTIME = "Business hours";
+SHOP_SERVICE_PICKUP = "Pick up";
+SHOP_SERVICE_EATING = "Eat-in";
+SHOP_SERVICE_TAKEAWAY = "Take away";
+SHOP_TEL = "TEL";
+SHOP_FEEDBACK = "Feedback";
+SHOP_NEWCOMMENT = "Latest comments";
+SHOP_NOCOMMENT = "No Comments";
+SHOP_FAVORITE_OK = "OK";
+SHOP_FAVORITE_CANCEL = "Cancel";
+SHOP_FAVORITE_FAIL = "failure";
+SHOP_CHECKOUT = "Pay";
+SHOP_CLOSE = "Close";
+SHOP_OPEN = "Open";
+SHOP_GIVEUP_START = "Are you sure to give up?";
+SHOP_GIVEUP_END = " dish";
+SHOP_CHOOSE_CONTINUE = "Continue";
+SHOP_CHOOSE_CANCEL = "Abandon";
+SHOP_ALERT_NODISH = "No selection yet";
+SHOP_ALERT_COMMENT_SUCCESS = "Comments added";
+SHOP_CHECK_NULL = "Please select a dish";
+SHOP_CLEAR = "Clear";
+SHOP_CONFIRM_UNIT = "";
+SHOP_CONFIRM_FOOD = "Confirm order";
+SHOP_NO_TICKETS = "Total:";
+
+SHOP_ORDER_DRINK = "Drink";
+SHOP_ORDER_CUSTOM = "Custom";
+SHOP_ORDER_OK = "OK";
+
+SHOP_PICKUP_TITLE = "Pick up";
+SHOP_PICKUP_CONTACT = "Input your contacts";
+SHOP_PICKUP_TIME = "Pick up time";
+SHOP_PICKUP_INVOICE = "Invoice";
+SHOP_PICKUP_REMARK = "Remarks";
+SHOP_PICKUP_ORDERTOTAL = "Order Total"; 
+SHOP_PICKUP_FOODTOTAL = "Food Total";
+SHOP_PICKUP_AMOUNT = "Amount";
+SHOP_PICKUP_PAYSTYLE = "Payment method";
+SHOP_PICKUP_PEOPLE = "Pay in person";
+SHOP_PICKUP_ONLINE = "Pay online";
+SHOP_PICKUP_ONLINE_TIP = "No online payment accepted for this restaurant";
+SHOP_PICKUP_CONFIRM = "Confirm Order";
+SHOP_PICKUP_NOIVOICE = "No invoice";
+SHOP_PICKUP_ONEHOUR = "after 30 min";
+SHOP_PICKUP_CHECK_CONTACT = "Input contact";
+SHOP_PICKUP_CHECK_PAY = "Select payment method";
+SHOP_PICKUP_SELECT_CONTACT = "Select contact";
+
+SHOP_ADDRESS_NEW = "Add";
+SHOP_ADDRESS_SUCCESS = "Successful";
+SHOP_ADDRESS_UPDATESUCCESS = "Successful";
+SHOP_ADDRESS_TITLE = "Add new address";
+SHOP_ADDRESS_NAME = "Name";
+SHOP_ADDRESS_ADDRESS = "Address";
+SHOP_ADDRESS_PHONE = "Phone number";
+SHOP_ADDRESS_NAME_TIP = "Input your name";
+SHOP_ADDRESS_ADDRESS_TIP = "Input your address";
+SHOP_ADDRESS_PHONE_TIP = "Input your phone number";
+
+SHOP_TIME_TITLE = "Select pick up time";
+SHOP_INVOICE_TITLE = "Add Invoice";
+SHOP_INVOICE_CHECK = "Input personal name or company name";
+
+SHOP_ORDER_REVIEW = "Successful, waiting for reply from restaurant";
+
+SHOP_COMMENT_LIST_TITLE = "Comment List";
+SHOP_COMMENT_DETAIL_TITLE = "Comments";
+SHOP_COMMENT_LIST_ADD = "Added";
+SHOP_COMMENT_LIST_DEL = "Deleted";
+SHOP_COMMENT_DEL = "Delete";
+SHOP_COMMENT_DATE = "Date";
+SHOP_COMMENT_USER = "User";
+
+SHOP_DETAIL_STATUS1 = "Shop has closed";
+SHOP_DETAIL_STATUS2 = "Shop has Paused";
+SHOP_DETAIL_STATUS3 = "Close for holiday";
+
+//我的订单
+MYORDERS_TITLE = "My Orders";
+MYSHOP_SALE = "Sold ";
+MYSHOP_SALE_UNIT = "Sold ";
+MYORDERS_ALL = "All";
+MYORDERS_PROCESS = "In progress";
+MYORDERS_COMMNENT = "Comment";
+MYORDERS_UNIT = "Amount：";
+MYORDERS_MESSAGE = "No data";
+MYORDERS_LOGINSTATUS = "Not log in";
+
+MYORDERS_POP_OK = "Give me a commnet.";
+MYORDERS_POP_COMMENT = "Success for comment";
+MYORDERS_POP_FINISH = "Success,eating";
+MYORDERS_POP_WAITING = "Success, waiting for confirm order";
+
+MYORDERS_COMMNET_TITLE = "Comment";
+MYORDERS_COMMNET_ITEM1 = "Taste";
+MYORDERS_COMMNET_ITEM2 = "Enviroment";
+MYORDERS_COMMNET_ITEM3 = "Service";
+MYORDERS_COMMNET_ITEM4 = "Health";
+MYORDERS_COMMNET_ITEM5 = "Speed";
+MYORDERS_COMMNET_POP = "Success,give me a comment.";
+MYORDERS_COMMNET_CHECK = "Input your content";
+MYORDERS_COMMNET_ADDSUCCESS = "Add Success";
+MYORDERS_COMMNET_DELSUCCESS = "Delete Success";
+
+MYORDERS_DETAIL_TITLE = "Order Detail";
+MYORDERS_DETAIL_ORDERID = "Number";
+MYORDERS_DETAIL_ADDDATE = "Add Time";
+MYORDERS_DETAIL_PICKUPTIME = "Pickup Time";
+MYORDERS_DETAIL_GETTIME = "Get Time";
+MYORDERS_DETAIL_NAME = "Name";
+MYORDERS_DETAIL_ADDRESS = "Address";
+MYORDERS_DETAIL_PHONE = "Phone";
+MYORDERS_DETAIL_PAY = "Pay";
+MYORDERS_DETAIL_ISPAY = "Is Pay";
+MYORDERS_DETAIL_REMARK = "Remark";
+MYORDERS_DETAIL_CANCEL = "Cancel";
+MYORDERS_DETAIL_INFO = "Order info";
+MYORDERS_DETAIL_TOTAL = "Total";
+MYORDERS_DETAIL_COMMENT = "Add a comment";
+MYORDERS_DETAIL_FINISH = "Finish";
+MYORDERS_DETAIL_CLOSE = "Order is closed";
+MYORDERS_DETAIL_UNIT= "";
+MYORDERS_DETAIL_ADD = "Add";
+MYORDERS_DETAIL_CONFIRM= "Confirm pick up";
+MYORDERS_DETAIL_WAITING = "Waiting for confirm order";
+MYORDERS_DETAIL_COOKING = "Waiting for cooking";
+MYORDERS_DETAIL_SERVICE_NO = "No service phone number";
+MYORDERS_DETAIL_SERVICE_SHOP = "phone number";
+MYORDERS_DETAIL_SERVICE_CANCEL = "Cancel";
+MYORDERS_DETAIL_SERVICE_OK = "OK";
+MYORDERS_DETAIL_SERVICE_OFFICIAL = "Official";
+
+//我的账户
+ACCOUNT_TITLE = "My account";
+ACCOUNT_MENUS_MYINFO = "My Info";
+ACCOUNT_MENUS_PASSWORD = "Change password";
+ACCOUNT_MENUS_MYFAVORITE = "My favorites";
+ACCOUNT_MENUS_MYCOMMENT = "My Comments";
+ACCOUNT_MENUS_MYADDRESS = "My Address";
+ACCOUNT_MENUS_MYINVOICE = "My Invoice";
+
+ACCOUNT_PROFILE_TITLE = "My profile";
+ACCOUNT_PROFILE_NICKNAME = "NickName";
+ACCOUNT_PROFILE_NICKNAME_TIP = "Input your nickname";
+ACCOUNT_PROFILE_NICKNAME_CHECK = "Input your correct nickname";
+ACCOUNT_PROFILE_EMAIL = "Email";
+ACCOUNT_PROFILE_EMAIL_TIP = "Input your email";
+ACCOUNT_PROFILE_EMAIL_CHECK = "Input your correct email";
+ACCOUNT_PASSWORD_TITLE = "Change password";
+ACCOUNT_PASSWORD_NEW = "New Password";
+ACCOUNT_PASSWORD_CONFIRM = "Confirmed";
+ACCOUNT_PASSWORD_NEW_TIP = "Input new password";
+ACCOUNT_PASSWORD_CONFIRM_TIP = "Input confirmed password";
+ACCOUNT_PASSWORD_CHECK_TWO = "The two passwords do not match";
+
+ACCOUNT_POP_UPDATE = "Success for update";
+ACCOUNT_POP_ADD = "Success for save";
+ACCOUNT_POP_PASSWORD = "Success for updated password";
+
+ACCOUNT_ADDRESS_ADD = "Add";
+ACCOUNT_ADDRESS_ADD_TITLE = "New Address";
+ACCOUNT_ADDRESS_ADD_NAME = "Name";
+ACCOUNT_ADDRESS_ADD_ADDRESS = "Address";
+ACCOUNT_ADDRESS_ADD_PHONE = "Phone";
+ACCOUNT_ADDRESS_ADD_NAME_TIP = "Please input your name";
+ACCOUNT_ADDRESS_ADD_ADDRESS_TIP = "Please input your address";
+ACCOUNT_ADDRESS_ADD_PHONE_TIP = "Please input your mobile";
+ACCOUNT_ADDRESS_ADD_NAME_CHECK = "Please input your correct name";
+ACCOUNT_ADDRESS_ADD_ADDRESS_CHECK = "Please input your correct address";
+ACCOUNT_ADDRESS_POP_ADD = "Success for add";
+ACCOUNT_ADDRESS_POP_UPDATE = "Success for update";
+ACCOUNT_ADDRESS_POP_DEL = "Success for delete";
+ACCOUNT_ADDRESS_UPDATE_TITLE = "Update Address";
+ACCOUNT_ADDRESS_UPDATE_OK = "Save";
+ACCOUNT_ADDRESS_UPDATE_DEL = "Delete";
+
+//设置
+SETTING_TITLE = "Setting";
+SETTING_MENUS_AGREEMENT = "Conditions and terms";
+SETTING_MENUS_HELP = "Help";
+SETTING_MENUS_INTRO = "Introduction";
+SETTING_MENUS_SHARE = "Share with your friends";
+SETTING_MENUS_ABOUTUS = "Who we are";
+SETTING_MENUS_FEEDBACK = "Feedback";
+SETTING_EXIST = "Exit";
+SETTING_EXIST_OK = "Log out";
+
+//登陆
+LOGIN_TITLE = "Log in";
+LOGIN_MOBILE = "Mobile";
+LOGIN_PASSWORD = "Password";
+LOGIN_MOBILE_TIP = "Input your mobile phone number";
+LOGIN_PASSWORD_TIP = "Input your password";
+LOGIN_REGISTER = "Register now";
+LOGIN_FORGET = "Forget Password?";
+LOGIN_CHECK_MOBILE_NULL = "Please input your mobile phone number";
+LOGIN_CHECK_MOBILE = "Mobile phone number is not correct";
+LOGIN_CHECK_PASSWORD_NULL = "Please input password";
+LOGIN_CHECK_TOOSHORT = "Password is too short(4~20)";
+LOGIN_CHECK_TOOLONG = "Password is too long(4~20)";
+LOGIN_POST_MESSAGE_PASSWORD = "Password is not correct";
+LOGIN_POST_MESSAGE_MOBILEPHONE = "Mobile number not found";
+LOGIN_POST_MESSAGE_EXCEPTION = "Exception";
+LOGIN_ALERT_MESSAGE = "Send a message to your mobile phone";
+LOGIN_ALERT_SUCCESS = "Successful";
+
+//注册
+REGISTER_TITLE = "Register";
+REGISTER_MOBILE = "Mobile phone";
+REGISTER_CODE = "Verification code";
+REGISTER_PASSWORD = "Password";
+REGISTER_REPASSWORD = "Confirm Password";
+REGISTER_MOBILE_TIP = "Input mobile phone";
+REGISTER_CODE_TIP = "Input verification code sent to your phone";
+REGISTER_PASSWORD_TIP = "Input password";
+REGISTER_REPASSWORD_TIP = "Input confirmed password";
+REGISTER_POST_MESSAGE = "This mobile number has been registered already";
+REGISTER_CODE_GET = "Get";
+REGISTER_MOBILE_CORRECT = "Number is not correct";
+REGISTER_MOBILE_EXIST = "This mobile number has been registered already";
+REGISTER_CODE_CORRECT = "Code is not correct";
+REGISTER_PASSWORD_CHECK = "The two passwords do not match";
+REGISTER_CODE_SEND = "Code sent to your phone, please check";
+
+//找回密码
+FORGET_PASSWORD_TITLE = "Forget Password";
+FORGET_PASSWORD_TIP = "The new password is ok";
+FORGET_PASSWORD_MOBILE_NOT = "Your mobile phone not exist";
+
+//上传图片
+UPLOAD_TITLE = "Upload Image";
+UPLOAD_SUBMIT = "Submit";
+UPLOAD_PICTURE = "Gallery";
+UPLOAD_CAMERA = "Camera";
+UPLOAD_CHECK = "Please select a picture";
+UPLOAD_SUCCESS = "Success";
+UPLOAD_FAIL = "Fail";
+UPLOAD_NULL = "You must select a picture";
+
+//意见反馈
+FEEDBACK_TITLE = "Feedback";
+FEEDBACK_SUBMIT = "Submit";
+FEEDBACK_DEVICE = "Device";
+FEEDBACK_OS_VERSION = "OS Version";
+FEEDBACK_APP_VERSION = "APP Version";
+FEEDBACK_EMAIL = "Please input your email";
+FEEDBACK_CHECK = "Please input your suggestion";
+FEEDBACK_SUCCESS = "Success, have a good luck！";
+FEEDBACK_SHOP_SUCCESS = "Thank you very much!";
+
+//更多
+MORE_DATA = "Show the next 20";
+MORE_DATA_NO = "no more data";
+
